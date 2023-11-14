@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.carousel-inner {
+    max-height: 60%;
+    width: auto;
+}
+
+.col-3 {
+    width: 25%;
+}
+.col-9 {
+    width: 75%;
+}
