@@ -1,12 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-.carousel-inner {
-    max-height: 60%;
-    width: auto;
+   
+body {
+        
+        background-image: url(img/muro-hormigon-gris-claro.jpg);        
+        background-size: cover;          
+        background-repeat: no-repeat;
+         background-position: center center;
+        background-color: #f0f0f0;
+    }
+    
+
+
+.carouselExampleCaptions{
+    background-size: cover;
 }
 
-.col-3 {
-    width: 25%;
+.pie_pagina{
+    width: 100%;
+    background-color: gray;
 }
-.col-9 {
-    width: 75%;
+.pie_pagina.grupo-1 {
+   width: 100%;
+   max-width: 1200px;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 50px;
+   padding: 45px 0px;
+
+}
+.pie_pagina.grupo-1 figure{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.pie_pagina.grupo-1 figure img {
+    width: 25px;
+    height: 25px;
+}
+.img{
+    width: 25px;
+    height: 25px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+.box-1{
+    width:48%;
 }
