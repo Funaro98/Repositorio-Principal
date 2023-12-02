@@ -1,4 +1,3 @@
-@charset "UTF-8";
 #carouselExampleCaptions .carousel-item {
   height: 700px; /* Set the height you want here */
   border-radius: 5%;
@@ -35,27 +34,31 @@ hr {
   gap: 20px;
   margin: 50px;
   padding: 0;
-}
-.column .img-fluid {
-  width: 100%;
-  margin-left: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border-radius: 5%;
-}
-.column .p {
-  font-size: 25px;
-  font-weight: bold;
-  text-align: center;
+
+  .img-fluid {
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px; 
+    border-radius: 5%;
+  }
+
+  .p {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
 }
 
-.diseñador .row {
-  position: relative;
-  background-size: cover;
-  display: flex;
-}
-.diseñador .row .img-fluid {
-  height: 300px; /* Set the height you want here */
+.diseñador {
+  .row {
+    position: relative;
+    background-size: cover;
+    display: flex;
+
+    .img-fluid {
+      height: 300px; /* Set the height you want here */
+    }
+  }
 }
 
-/*# sourceMappingURL=estilos.css.map */
