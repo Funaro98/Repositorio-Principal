@@ -6,8 +6,8 @@
 }
 
 #carouselExampleCaptions .carousel-item img {
-  height: 100%;
-  width: 55%;
+  height: auto;
+  width: 100%;
   border-radius: 7vh;
   padding: 5vh;
   display: none;
