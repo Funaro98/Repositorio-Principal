@@ -9,9 +9,10 @@
     <title>A&deco</title>
 </head>
 <body>
+  <div>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">A&deco</a>
+      <a class="navbar-brand" href="/index.html">A&deco</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -21,7 +22,7 @@
             <a class="nav-link active" aria-current="page" href="/pages/nosotros.html">NOSOTROS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/index.html">DISEÑADOR</a>
+            <a class="nav-link" href="/pages/diseñador.html">DISEÑADOR</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active" href="pages/productos.html" aria-current="page">
@@ -31,64 +32,42 @@
             <a class="nav-link" href="/pages/contacto.html" >CONTACTO</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
       </div>
     </div>
   </nav>
 </div>
-      <!-- carousel  -->
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!-- carousel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active img-fluid">
+          <img src="assets/img/carousel/elegante-sala-estar-escandinava-muebles-sofa-menta-diseno-que-burlan-plantas-mapa-cartel-eleg.jpg" class="d-block w-100" alt="">
+ 
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active"> 
-            <img src="/assets/img/comedor-acogedor-apartamento-moderno.jpg" class="d-block w-100" alt="imagen 1">
-            <div class="carousel-caption d-none d-md-block flex-column">
-              <h5>Diseño a tu Medida</h5>
-              <p>Encontra todo lo que estas buscando para tu hogar</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/wepik-export-20231130043950OG3N.png" class="d-block w-100" alt="imagen 2">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Profesionales a tu Servicio</h5>
-              <p>Personal calificado con experiencia garantizando calidad en todos los productos</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/ingeniero-que-usa-gafas-vr-fabricar-productos-engranajes-tecnologia-realidad-virtual-software-cad-computadora-turbina-maquinaria-industrial-ingenieria-tecnica-auriculares-interactivos.jpg" class="d-block w-100" alt="imagenes 3">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>El futuro llego!</h5>
-              <h6>Crea con nuestra ayuda eso que tanto buscas</h6>
-              <p>Proximamente</p>
-
-            </div>
-          </div>
+        <div class="carousel-item img-fluid">
+         <img src="assets/img/carousel/diseñador de realidad aumentada.png" class="d-block w-100" alt="">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item img-fluid">
+       <img src="assets/img/carousel/materiales de primera calidad.png" class="d-block w-100" alt="">
+        </div>
       </div>
-      <hr>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
       <!-- sector debajo del carrousel -->
       <div class="row">
-        <div class="column">
+        <div class="col-md-6">
           <div>
-            <img src="assets/img/sofa-verde-sala-estar-blanca-mesa-blanco-maqueta.jpg" alt="sofa verde" class="img-fluid">
+            <img src="assets/img/fotos abajo de carousel/diseño industrial.png" alt="diseño industrial" class="img-fluid d-block w-50">
           </div>
         </div>
-        <div class="column">
+        <div class="column col-md-4">
           <h2 class="text-capitalize">Diseña tu Vida</h2>
           <p class="align-items-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse mollitia natus excepturi eveniet dignissimos qui vitae minima? Modi quisquam nam alias, omnis, expedita ratione voluptatibus veniam exercitationem impedit deserunt id.</p>
         </div>
@@ -96,14 +75,14 @@
       </div>
     <!-- segunda imagen por debajo del carousel -->
     <div class="row">
-      <div class="column">
+      <div class="col-md-4">
         <h2 class="text-capitalize">Estes donde estes</h2>
-        <p class="align-items-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse mollitia natus excepturi eveniet dignissimos qui vitae minima? Modi quisquam nam alias, omnis, expedita ratione voluptatibus veniam exercitationem impedit deserunt id.</p>
+        <p class="align-items-center">Nos expandimos hacia todo el pais, estes donde estes, vas a poder disfrutar de toda nuestra gama de productos y servicios</p>
       </div>
 
-      <div class="column">
+      <div class="col-md-6">
         <div>
-          <img src="assets/img/envios a todo el pais.jpg" alt="sofa verde" class="img-fluid">
+          <img src="assets/img/fotos abajo de carousel/envios-argentina.jpg" alt="envios arg" class="img-fluid">
         </div>
       </div>
     </div>
